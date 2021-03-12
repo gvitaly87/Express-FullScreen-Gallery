@@ -1,6 +1,5 @@
 body {
   font-family: 'Raleway', sans-serif;
-
 }
 
 h1,
@@ -9,8 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Indie Flower',
-    cursive;
+  font-family: 'Indie Flower', cursive;
 }
 
 /* Have the gallery occupy the whole viewport */
@@ -41,12 +39,16 @@ figure {
 /* Fade animation when a figure changes to active state */
 @keyframes fade {
   from {
-    opacity: .1
+    opacity: 0.1;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
+}
+h1 {
+  padding: 2rem;
+  font-size: 4rem;
 }
 
 h2 {

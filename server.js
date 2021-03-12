@@ -16,9 +16,9 @@ const port = process.env.PORT || 3000;
 //Every time we see a app.use we apply a Middleware in express
 //Returns the static asset as long as it is found in the specified folder.
 app.use(express.static(path.join(__dirname, './public')));
-//TODO: 404 html page.
+
+//404 Not Found page.
+app.use((req, res) => res.status(404).redirect('404.html'));
 
 // Start a TCP server listening for connections on the given port and host
-app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+app.listen(port, hostname, () => console.log(`Server running at http://${hostname}:${port}/`));

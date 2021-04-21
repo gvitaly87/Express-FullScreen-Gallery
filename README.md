@@ -5,7 +5,7 @@ Fullscreen Fruit Gallery - Deployed Static Express Website
 - Course: CPNT-262 - Web Client & Server Prog.
 - Author: [Vitaly Gins](https://github.com/gvitaly87) - Repository owner and maintainer.
 - Github Links:
-  - [GH repo](https://github.com/gvitaly87/cpnt262-a3)
+  - [GH repo](https://github.com/gvitaly87/Express-FullScreen-Gallery)
   - [Deployed Heroku URL](https://vitaly-cpnt262-a3.herokuapp.com/)
 
 ### Context

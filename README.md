@@ -12,6 +12,7 @@
 
 Transfer the gallery website from Assignment 2 to a static Express website. The assignment is used to practice working with npm. In addition it covers the basics of using the express framework. It also includes the use of a middleware to serve static pages form the static folder.
 
+
 ---
 
 ### Dependencies

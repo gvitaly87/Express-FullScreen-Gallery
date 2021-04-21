@@ -1,4 +1,4 @@
-# CPNT262 - Assignment 3 - Deployed Static Express Website
+Fullscreen Fruit Gallery - Deployed Static Express Website
 
 ## General Information
 
